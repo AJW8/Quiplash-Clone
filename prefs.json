@@ -1,0 +1,63 @@
+{
+	"password": "password",
+	"min_players": "3",
+	"max_players": "8",
+	"round_1_prompts": [
+		"Round 1 Prompt 1",
+		"Round 1 Prompt 2",
+		"Round 1 Prompt 3",
+		"Round 1 Prompt 4",
+		"Round 1 Prompt 5",
+		"Round 1 Prompt 6",
+		"Round 1 Prompt 7",
+		"Round 1 Prompt 8",
+		"Round 1 Prompt 9",
+		"Round 1 Prompt 10"
+	],
+	"round_2_prompts": [
+		"Round 2 Prompt 1",
+		"Round 2 Prompt 2",
+		"Round 2 Prompt 3",
+		"Round 2 Prompt 4",
+		"Round 2 Prompt 5",
+		"Round 2 Prompt 6",
+		"Round 2 Prompt 7",
+		"Round 2 Prompt 8",
+		"Round 2 Prompt 9",
+		"Round 2 Prompt 10"
+	],
+	"final_round_prompts": [
+		"Final Round Prompt 1",
+		"Final Round Prompt 2",
+		"Final Round Prompt 3",
+		"Final Round Prompt 4",
+		"Final Round Prompt 5",
+		"Final Round Prompt 6",
+		"Final Round Prompt 7",
+		"Final Round Prompt 8",
+		"Final Round Prompt 9",
+		"Final Round Prompt 10"
+	],
+	"safety_quips": [
+		"Safety Quip 1",
+		"Safety Quip 2",
+		"Safety Quip 3",
+		"Safety Quip 4",
+		"Safety Quip 5",
+		"Safety Quip 6",
+		"Safety Quip 7",
+		"Safety Quip 8",
+		"Safety Quip 9",
+		"Safety Quip 10",
+		"Safety Quip 11",
+		"Safety Quip 12",
+		"Safety Quip 13",
+		"Safety Quip 14",
+		"Safety Quip 15",
+		"Safety Quip 16",
+		"Safety Quip 17",
+		"Safety Quip 18",
+		"Safety Quip 19",
+		"Safety Quip 20"
+	]
+}
