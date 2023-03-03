@@ -81,7 +81,8 @@ function Game(){
 	}
 	
 	this.addUser = function(user){
-		if(user.getPlayer() && gameState.get() != states.LOBBY) return;
+		const curState = gameState.get();
+		if(user.getPlayer() && curState != states.LOBBY) return;
 		users.addUser(user, gameId);
 		const allUsers = users.getAll();
 		if(user.getPlayer()){
@@ -94,7 +95,7 @@ function Game(){
 			if(!audience) audience = {};
 			audience[user.getUniqueId()] = {
 				connected: true,
-				voting: states.CURRENT_PROMPT
+				voting: curState == states.CURRENT_PROMPT
 			};
 		}
 	}
