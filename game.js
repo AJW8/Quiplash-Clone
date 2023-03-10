@@ -663,7 +663,7 @@ function Game(){
 			const allUsers = users.getAll();
 			var audienceCount = game.getAudienceCount();
 			for(var a in audience){
-				if(audience[a] && audience[a].connected && allUsers[a] && allUsers[a].getAudience()){
+				if(audience[a] && allUsers[a] && allUsers[a].getAudience()){
 					audience[a].connected = false;
 					allUsers[a].checkAudienceConnection();
 				}
