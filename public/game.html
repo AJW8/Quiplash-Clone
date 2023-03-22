@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Quiplash!</title>
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">	
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/spinkit.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.plugin.min.js"></script>
+		<script src="js/jquery.countdown.min.js"></script>
+		<script src="socket.io/socket.io.js"></script>
+		<script src="js/game/game.js"></script>
+	</head>
+<body>
+	<div align="center">
+		<div id="title"></div>
+		<div id="lobby">Waiting for host to start the game.</div>
+		<div id="idle">QUIPLASH</div>
+		<div id="answer_prompts">
+			<div id="answer_prompt"></div>
+			<input type="text" id="answer" maxlength="60"/>
+			<button id="btn_submit_answer" class="btn btn-default">Submit</button>
+			<div id="safety_quip">
+				<button id="btn_safety_quip" class="btn btn-default">Safety Quip</button>
+			</div>
+		</div>
+		<div id="answered">Thank you for your input. Please wait for the other players to finish.</div>
+		<div id="audience_waiting">You're in the audience. Please wait for your time to vote.</div>
+		<div id="vote">
+			<div id="vote_prompt"></div>
+			<div id="vote1">
+				<button id="btn_vote1" class="btn btn-default"></button>
+			</div>
+			<div id="vote2">
+				<button id="btn_vote2" class="btn btn-default"></button>
+			</div>
+			<div id="vote3">
+				<button id="btn_vote3" class="btn btn-default"></button>
+			</div>
+			<div id="vote4">
+				<button id="btn_vote4" class="btn btn-default"></button>
+			</div>
+			<div id="vote5">
+				<button id="btn_vote5" class="btn btn-default"></button>
+			</div>
+			<div id="vote6">
+				<button id="btn_vote6" class="btn btn-default"></button>
+			</div>
+			<div id="vote7">
+				<button id="btn_vote7" class="btn btn-default"></button>
+			</div>
+			<div id="vote8">
+				<button id="btn_vote8" class="btn btn-default"></button>
+			</div>
+		</div>
+		<div id="my_prompt">You answered this prompt. Please wait for the other players to vote.</div>
+		<div id="voted">Thank you for voting!</div>
+		<div id="end">Thank you for playing!</div>
+	</div>
+</body>
+</html>

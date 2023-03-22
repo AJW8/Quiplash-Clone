@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Quiplash!</title>
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">	
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/spinkit.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.plugin.min.js"></script>
+		<script src="js/jquery.countdown.min.js"></script>
+		<script src="socket.io/socket.io.js"></script>
+		<script src="js/game/host.js"></script>
+	</head>
+<body>
+	<div align="center">
+		<div id="room_code"></div>
+		<div id="lobby">
+			<div id="lobby_players"></div>
+			<div id="lobby_audience"></div>
+			<div id="start_game">
+				<button id="btn_start_game" class="btn btn-default"></button>
+			</div>
+		</div>
+		<div id="game_start">
+			<div id="game">
+				<div id="game_audience_count"></div>
+				<div id="intro"></div>
+				<div id="answer_prompts">
+					<div id="write_answer"></div>
+					<div id="players_answered"></div>
+				</div>
+				<div id="current_prompt">
+					<div id="show_prompt"></div>
+					<div id="show_answers"></div>
+					<div id="vote_prompt"></div>
+					<div id="audience_votes"></div>
+				</div>
+				<div id="scores"></div>
+				<div id="winner"></div>
+				<button id="btn_continue" class="btn btn-default">Continue</button>
+			</div>
+			<div id="end">
+				<div id="final_scores"></div>
+				<button id="btn_same_players" class="btn btn-default">Same Players</button>
+				<button id="btn_new_players" class="btn btn-default">New Players</button>
+			</div>
+			<button id="btn_leave_game" class="btn btn-default">Leave Game</button>
+		</div>
+	</div>
+</body>
+</html>
