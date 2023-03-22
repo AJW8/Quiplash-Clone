@@ -29,7 +29,7 @@ function Games(){
 			var letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 			var length = letters.length;
 			for(var i = 0; i < 4; i++) id += letters.charAt(Math.floor(Math.random() * length));
-			for(var g in games) if(games[g].getId() == id) id = false;
+			for(var g in games) if(games[g] && games[g].getId() == id) id = false;
 		}
 		while(!id);
 		return id;
