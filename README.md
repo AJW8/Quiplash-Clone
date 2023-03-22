@@ -28,8 +28,6 @@ After downloading and unzipping the GIT folder, you will need to install depende
 npm install
 ```
 
-You will also need to unzip the public.zip folder.
-
 ### Preferences
 The root folder contains a prefs.json file for customising preferences.  These include:
 - The password required to host a game
