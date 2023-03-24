@@ -89,7 +89,7 @@ function HostView(){
 			}
 			else if(state == states.ROUND_INTRO){
 				$("#intro").show();
-				$("#intro").html(round == 0 ? "<p>Round 1</p><p>You receive points for each response depending on the percentage of votes received.</p>Remember: if you can't think of a response to a prompt, you can use a safety quip instead. However, you will only receive half as many points for it.<p></p>" : round == 1 ? "<p>Round 2</p><p>All points are doubled.</p>" : "<p>Final Round</p><p>Everyone gets the same prompt!</p>");
+				$("#intro").html(round == 0 ? "<p>Round 1</p><p>You receive points for each response depending on the percentage of votes received.</p><p>Remember: if you can't think of a response to a prompt, you can use a safety quip instead. However, you will only receive half as many points for it.</p>" : round == 1 ? "<p>Round 2</p><p>All points are doubled.</p>" : "<p>Final Round</p><p>Everyone gets the same prompt!</p>");
 			}
 			else $("#intro").hide();
 			if(state == states.ANSWER_PROMPTS){
